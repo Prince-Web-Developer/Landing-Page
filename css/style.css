@@ -115,3 +115,23 @@ button:hover{
     border: 5px solid #3882f6;
     border-radius: 10px;
 }
+
+.quote{
+    margin-top: 80px;
+    background-color: #E5E7EB;
+    padding: 80px 20vw;
+}
+
+.quote p{
+    text-align: end;
+    font-weight: 900;
+}
+
+.quote p:first-child{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: start;
+}
+
