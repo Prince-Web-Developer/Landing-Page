@@ -9,7 +9,7 @@
 
 
 
-header,.pop-up-section{
+header,.pop-up-section,footer{
     padding: 10px 10vw 40px;
     background-color: #1f2937;
 }
@@ -160,4 +160,11 @@ button:hover{
 
 .pop-up-content p:last-of-type{
     font-weight: 300;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding:30px 0px;
+    color: white;
 }
