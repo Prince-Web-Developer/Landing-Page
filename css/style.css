@@ -9,7 +9,7 @@
 
 
 
-header{
+header,.pop-up-section{
     padding: 10px 10vw 40px;
     background-color: #1f2937;
 }
@@ -78,7 +78,7 @@ a{
 button{
     all: unset;
     background-color: #3882f6;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
@@ -105,7 +105,7 @@ button:hover{
 }
 
 .card{
-    width: 150px;;
+    width: 150px;
     text-align: center;
 }
 
@@ -135,3 +135,29 @@ button:hover{
     text-align: start;
 }
 
+.pop-up-section{
+    background-color: white;
+}
+
+
+.pop-up{
+    background-color: #3882f6;
+    padding: 40px 10vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop-up-button{
+    border: 2px solid #ffffff;
+}
+
+
+
+.pop-up-content p:first-of-type{
+    font-weight: 900;
+}
+
+.pop-up-content p:last-of-type{
+    font-weight: 300;
+}
